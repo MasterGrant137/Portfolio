@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" type="image/png" href="favicon.ico">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <script type='module'>
+			fetch('./js/meta_data.json')
+				.then((res) => res.json())
+				.then((data) => 
+					document.getElementById('arcade-academy-description').innerText = arcadeAcademy.description -->
+				)
+			<!-- // console.log(metaData.arcadeAcademy.url);
+			// const arcadeAcademyLink = document.getElementById('arcade-academy-url');
+			// arcadeAcademy.href = metaData.arcadeAcademy.url
+			// arcadeAcademy.src = metaData.arcadeAcademy.img
+
+			// const erudite = document.getElementById('erudite');
+			// const finstagram = document.getElementById('finstagram');
+			// const creepyCrawler = document.getElementById('creepy-crawler'); -->
+		<!-- </script> -->
 	</head>
 	<body class="is-preload">
 
@@ -64,8 +79,8 @@
 							<header>
 								<h2 class="alt">Hello! I'm <strong>Alejandro</strong>, a software engineer<br />
 								from Indio, California.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<p>Learn more about my journey and skillset by<br />
+								exploring below.</p>
 							</header>
 
 							<footer>
@@ -83,51 +98,48 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p>These are a few notable projects I worked on.</p>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://arcade-academy-1.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<article class="item">Erudite
+										<a id="arcade-academy-url" href="https://erudite-1.herokuapp.com/"" target="_blank" rel="noreferrer noopener" class="image fit"><img id="arcade-academy-img" src="https://github.com/MasterGrant137/Erudite/blob/main/frontend/public/site_cover.png?raw=true" alt="" /></a>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<h3 id="arcade-academy-description">Erudite gives users the ability to add, search for, and otherwise interact with songs. It serves a similar purpose as the lyrics website Genius.</h3>
 										</header>
 									</article>
-									<article class="item">
-										<a href="#" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<article class="item">Finstagram
+										<a id="erudite" href="https://finstagram-1.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="image fit"><img src="https://github.com/MasterGrant137/Finstagram/blob/main/react-app/public/images/site_cover.png?raw=true" alt="" /></a>
 										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
+											<h3>Finstagram emulates the social media experience by giving the client the opportunity to interact with posts and connect with other users. Jason Cahela and Josue Lugaro were both contributors on this project.</h3>
 										</header>
 									</article>
 								</div>
 								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<article class="item">Arcade Academy
+										<a id="finstagram" href="https://arcade-academy-1.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="image fit"><img src="https://github.com/MasterGrant137/Arcade_Academy/blob/main/public/images/aa-coverThumbnail.png?raw=true" alt="" /></a>
 										<header>
-											<h3>Dolor Penatibus</h3>
+											<h3>We (Alejandro C. Grant, Andrew Derocher, Chase Kessler, and Christopher Felix) sought to construct a site structurally reminiscent of Goodreads but with a unique motif centering on games.</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a id="creepy-crawler" href="#" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<header>
+											<h3>...</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">Creepy Crawler
+										<a href="https://creepy-crawler-1.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="image fit"><img src="https://github.com/MasterGrant137/Creepy_Crawler/blob/main/react-app/public/site_cover.png?raw=true" alt="" /></a>
+										<header>
+											<h3>Creepy Crawler is a search engine wrapped in a fully customizable browser. Users can search the web, have their history logged, and set custom themes.</h3>
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
 										<header>
-											<h3>Orci Convallis</h3>
+											<h3>...</h3>
 										</header>
 									</article>
 								</div>
@@ -144,14 +156,11 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/korean_classroom.jpg" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<p>I have several interests. Aside from my passion for programming, poetry,
+							   music, and teaching are close to my heart.
+							</p>
 
 						</div>
 					</section>
@@ -164,10 +173,7 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<p>Feel free to contact me below.</p>
 
 							<form method="post" action="#">
 								<div class="row">
