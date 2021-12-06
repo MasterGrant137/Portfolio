@@ -9,7 +9,7 @@ const proj_urls = [
     'https://creepy-crawler-1.herokuapp.com/'
 ]
 
-const metaCompiler = (proj_urls) => {
+const metaCompiler = (proj_urls, fileData = {}) => {
     for (let i = 0; i <= proj_urls.length - 1; i++) {
         axios.get(proj_urls[i])
         .then((res) => {
@@ -19,8 +19,11 @@ const metaCompiler = (proj_urls) => {
                 metaObj[meta.attribs.name] = meta.attribs.content;
             })
             const title = $('title').text();
-            const jsonMetaObj = JSON.stringify(metaObj, null, 4);
-            fs.appendFile('./meta_data.json', `{${'\n'}"${title}": ${jsonMetaObj}${'\n'}}`, (err) => {
+            fileData[title] = metaObj;
+        })
+        .then((res) => {
+            const jsonMetaObj = JSON.stringify(fileData, null, 4);
+            fs.writeFile('./meta_data.json', jsonMetaObj, (err) => {
                 if (err) throw err;
                 console.log('Data successfully appended :D');
             })

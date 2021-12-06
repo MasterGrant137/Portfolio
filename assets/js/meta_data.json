@@ -1,32 +1,29 @@
 {
-"Erudite": {
-    "title": "Erudite",
-    "viewport": "width=device-width,initial-scale=1",
-    "image": "https://github.com/MasterGrant137/Erudite/blob/main/frontend/public/site_cover.png?raw=true",
-    "description": "Erudite gives users the ability to add, search for, and otherwise interact with songs. It serves a similar purpose as the lyrics website Genius.",
-    "url": "https://erudite-1.herokuapp.com/",
-    "author": "Alejandro Carrizosa Grant"
-}
-}{
-"Finstagram": {
-    "title": "Finstagram",
-    "image": "https://github.com/MasterGrant137/Finstagram/blob/main/react-app/public/images/site_cover.png?raw=true",
-    "description": "Finstagram emulates the social media experience by giving the client the opportunity to interact with posts and connect with other users. Jason Cahela and Josue Lugaro were both contributors on this project.",
-    "url": "https://finstagram-1.herokuapp.com/",
-    "author": "Alejandro Carrizosa Grant, Jason Cahela, Josue Lugaro"
-}
-}{
-"Arcade Academy": {
-    "image": "https://github.com/MasterGrant137/Arcade_Academy/blob/main/public/images/aa-coverThumbnail.png?raw=true",
-    "description": "We (Alejandro C. Grant, Andrew Derocher, Chase Kessler, and Christopher Felix) sought to construct a site structurally reminiscent of Goodreads but with a unique motif centering on games.",
-    "author": "Andrew Derocher, Chase Kessler, Alejandro Carrizosa Grant, Christopher Felix"
-}
-}{
-"Creepy Crawler": {
-    "title": "Creepy Crawler",
-    "image": "https://github.com/MasterGrant137/Creepy_Crawler/blob/main/react-app/public/site_cover.png?raw=true",
-    "description": "Creepy Crawler is a search engine wrapped in a fully customizable browser. Users can search the web, have their history logged, and set custom themes.",
-    "url": "https://creepy-crawler-1.herokuapp.com/",
-    "author": "Alejandro Carrizosa Grant"
-}
+    "Erudite": {
+        "title": "Erudite",
+        "viewport": "width=device-width,initial-scale=1",
+        "image": "https://github.com/MasterGrant137/Erudite/blob/main/frontend/public/site_cover.png?raw=true",
+        "description": "Erudite gives users the ability to add, search for, and otherwise interact with songs. It serves a similar purpose as the lyrics website Genius.",
+        "url": "https://erudite-1.herokuapp.com/",
+        "author": "Alejandro Carrizosa Grant"
+    },
+    "Arcade Academy": {
+        "image": "https://github.com/MasterGrant137/Arcade_Academy/blob/main/public/images/aa-coverThumbnail.png?raw=true",
+        "description": "We (Alejandro C. Grant, Andrew Derocher, Chase Kessler, and Christopher Felix) sought to construct a site structurally reminiscent of Goodreads but with a unique motif centering on games.",
+        "author": "Andrew Derocher, Chase Kessler, Alejandro Carrizosa Grant, Christopher Felix"
+    },
+    "Finstagram": {
+        "title": "Finstagram",
+        "image": "https://github.com/MasterGrant137/Finstagram/blob/main/react-app/public/images/site_cover.png?raw=true",
+        "description": "Finstagram emulates the social media experience by giving the client the opportunity to interact with posts and connect with other users. Jason Cahela and Josue Lugaro were both contributors on this project.",
+        "url": "https://finstagram-1.herokuapp.com/",
+        "author": "Alejandro Carrizosa Grant, Jason Cahela, Josue Lugaro"
+    },
+    "Creepy Crawler": {
+        "title": "Creepy Crawler",
+        "image": "https://github.com/MasterGrant137/Creepy_Crawler/blob/main/react-app/public/site_cover.png?raw=true",
+        "description": "Creepy Crawler is a search engine wrapped in a fully customizable browser. Users can search the web, have their history logged, and set custom themes.",
+        "url": "https://creepy-crawler-1.herokuapp.com/",
+        "author": "Alejandro Carrizosa Grant"
+    }
 }
