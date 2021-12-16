@@ -9,10 +9,10 @@ const proj_urls = [
     'https://creepy-crawler-1.herokuapp.com/'
 ]
 
-const metaCompiler = (proj_urls, fileData = {}) => {
+const metaCompiler = async (proj_urls, fileData = {}) => {
     for (let i = 0; i <= proj_urls.length - 1; i++) {
-        axios.get(proj_urls[i])
-        .then((res) => {
+        try {
+            const res = await axios.get(proj_urls[i]);
             const $ = cheerio.load(res.data);
             const metaObj = {};
             $('head').children('meta').each((idx, meta) => {
@@ -20,17 +20,14 @@ const metaCompiler = (proj_urls, fileData = {}) => {
             })
             const title = $('title').text();
             fileData[title] = metaObj;
-        })
-        .then((res) => {
             const jsonMetaObj = JSON.stringify(fileData, null, 4);
             fs.writeFile('./meta_data.json', jsonMetaObj, (err) => {
                 if (err) throw err;
                 console.log('Data successfully appended :D');
             })
-        })
-        .catch((err) => {
+        } catch (err) {
             console.log(`End of the line error: ${err}`);
-        })
+        }
     }
 };
 

@@ -1,4 +1,11 @@
 {
+    "Arcade Academy": {
+        "title": "Arcade Academy",
+        "image": "https://github.com/MasterGrant137/Arcade_Academy/blob/main/public/images/aa-coverThumbnail.png?raw=true",
+        "description": "We (Alejandro C. Grant, Andrew Derocher, Chase Kessler, and Christopher Felix) sought to construct a site structurally reminiscent of Goodreads but with a unique motif centering on games.",
+        "url": "https://arcade-academy-1.herokuapp.com/",
+        "author": "Andrew Derocher, Chase Kessler, Alejandro Carrizosa Grant, Christopher Felix"
+    },
     "Erudite": {
         "title": "Erudite",
         "viewport": "width=device-width,initial-scale=1",
@@ -13,13 +20,6 @@
         "description": "Finstagram emulates the social media experience by giving the client the opportunity to interact with posts and connect with other users. Jason Cahela and Josue Lugaro were both contributors on this project.",
         "url": "https://finstagram-1.herokuapp.com/",
         "author": "Alejandro Carrizosa Grant, Jason Cahela, Josue Lugaro"
-    },
-    "Arcade Academy": {
-        "title": "Arcade Academy",
-        "image": "https://github.com/MasterGrant137/Arcade_Academy/blob/main/public/images/aa-coverThumbnail.png?raw=true",
-        "description": "We (Alejandro C. Grant, Andrew Derocher, Chase Kessler, and Christopher Felix) sought to construct a site structurally reminiscent of Goodreads but with a unique motif centering on games.",
-        "url": "https://arcade-academy-1.herokuapp.com/",
-        "author": "Andrew Derocher, Chase Kessler, Alejandro Carrizosa Grant, Christopher Felix"
     },
     "Creepy Crawler": {
         "title": "Creepy Crawler",
