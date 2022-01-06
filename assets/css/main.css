@@ -8,9 +8,15 @@
 */
 
 /* other classes */
-.portfolio-description-container {
+.description-container {
 	height: 200px;
 	overflow-y: scroll;
+}
+
+.image-container {
+	display: flex;
+	height: fit-content;
+	overflow-x: scroll;
 }
 
 .description {
