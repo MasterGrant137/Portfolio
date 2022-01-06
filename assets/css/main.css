@@ -13,7 +13,7 @@
 	overflow-y: scroll;
 }
 
-#image-container {
+div.container > div.image-container {
 	display: flex;
 	height: fit-content;
 	overflow-x: scroll;
