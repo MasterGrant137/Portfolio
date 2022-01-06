@@ -8,7 +8,12 @@
 */
 
 /* other classes */
-.portfolio-section-description {
+.portfolio-description-container {
+	height: 200px;
+	overflow-y: scroll;
+}
+
+.description {
 	text-align: left;
 }
 
