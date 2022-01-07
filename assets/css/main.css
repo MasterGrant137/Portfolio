@@ -23,6 +23,18 @@ div.container > div.image-container {
 	text-align: left;
 }
 
+.image.avatar-medium {
+	width: fit-content;
+	height: fit-content;
+	background: #f00;
+}
+
+.image.avatar-medium img {
+	border-radius: 10px;
+	height: 200px;
+	width: 200px;
+}
+
 button a {
 	border-bottom: 0;
 }
@@ -1784,7 +1796,6 @@ input, select, textarea {
 			height: 48px;
 			background: #f00;
 		}
-
 			.image.avatar48 img {
 				width: 48px;
 				height: 48px;
