@@ -8,20 +8,30 @@
 */
 
 /***********other classes**************/
+.col-4 article {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.col-4 article header { border-radius: 10px }
+
 .description-container {
 	height: 200px;
 	overflow-y: scroll;
 }
 
-div.container > div.image-container {
+div.container > div.ethos-image-container {
 	display: flex;
 	height: fit-content;
 	overflow-x: scroll;
 }
 
-.description {
-	text-align: left;
+div.ethos-image-container::-webkit-scrollbar {
+	display: none;
+	scrollbar-width: none; /*$ Firefox $*/
 }
+
+.description { text-align: left }
 
 .image.avatar-medium {
 	width: fit-content;
@@ -35,13 +45,9 @@ div.container > div.image-container {
 	width: 200px;
 }
 
-button a {
-	border-bottom: 0;
-}
+button a { border-bottom: 0 }
 
-footer > .resume-form {
-	display: inline-block;
-}
+footer > .resume-form { display: inline-block }
 /**************************************/
 
 html, body, div, span, applet, object,
