@@ -26,6 +26,8 @@ div.container > div.ethos-image-container {
 	overflow-x: scroll;
 }
 
+div.container > div.ethos-image-container * { margin: 2% }
+
 div.ethos-image-container::-webkit-scrollbar {
 	display: none;
 	scrollbar-width: none; /*$ Firefox $*/
