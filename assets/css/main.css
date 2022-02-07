@@ -16,14 +16,14 @@
 .col-4 article header { border-radius: 10px }
 
 .description-container {
-	height: 200px;
-	overflow-y: scroll;
+	height: 400px;
+	overflow-y: auto;
 }
 
 div.container > div.ethos-image-container {
 	display: flex;
 	height: fit-content;
-	overflow-x: scroll;
+	overflow-x: auto;
 }
 
 div.container > div.ethos-image-container * { margin: 2% }
