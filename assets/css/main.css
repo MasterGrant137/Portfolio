@@ -38,7 +38,6 @@ div.ethos-image-container::-webkit-scrollbar {
 .image.avatar-medium {
 	width: fit-content;
 	height: fit-content;
-	background: #f00;
 }
 
 .image.avatar-medium img {
